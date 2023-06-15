@@ -1,0 +1,165 @@
+﻿                                /* _____________________________
+                    
+                                        CONTACT CSS   
+                   
+                                   ___________________________*/
+
+                /* _________________________
+
+                        STANDARD ELEMENTS 
+                    ________________________*/
+
+body 
+{
+    background: #000 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+                /* _________________________
+
+                        STRUCTURAL ELEMENTS 
+                    ________________________*/
+
+.table
+{
+    color: #fff;
+}
+
+.table thead tr th
+{
+    border-color: #FFF;
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+.table h1
+{
+    color: #fff;
+    text-align: center;
+}
+
+.table1
+{
+    width: 40px;
+}
+
+.txtname1
+{
+    width: 40px;
+    height: 25px;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    transition: .2s all linear;
+    border: 1px solid #C0C0C0;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    color: #000000;
+}
+
+.txtname1:focus
+{
+    box-shadow: 1px 1px 2px 3px #ff0000;
+}
+
+.txtemail1
+{
+    width: 40px;
+    height: 25px;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    transition: .2s all linear;
+    border: 1px solid #C0C0C0;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    color: #000000;
+}
+
+.txtemail1:focus
+{
+    box-shadow: 1px 1px 2px 3px #ff0000;
+}
+
+.txtsub1
+{
+    width: 40px;
+    height: 25px;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    transition: .2s all linear;
+    border: 1px solid #C0C0C0;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    color: #000000;
+}
+
+.txtsub1:focus
+{
+    box-shadow: 1px 1px 2px 3px #ff0000;
+}
+
+.txtmsg1
+{
+    width: 470px;
+    height: 200px;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    transition: .2s all linear;
+    border: 1px solid #C0C0C0;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    color: #000000;
+}
+
+.txtmsg1:focus
+{
+    box-shadow: 1px 1px 2px 3px #ff0000;
+}
+
+.contact
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact h2 
+{
+    text-align: left;
+}
+
+.contact p
+{
+    text-align: left;
+}
+
+
+.map 
+{
+    background-image: url('../images/map.png');
+    /** Google. (n.d.). [Google Maps for Laksamana College of Business, Roof Top, Plaza Abdul Razak, Jalan Laksamana Abdul Razak, Bandar Seri Begawan BA1712]. Retrieved April 26, 2016, from https://goo.gl/maps/ILt8O */
+    margin: 0% 20% 5%;
+    background-repeat: no-repeat;
+}
+
+#googleMap
+{
+    width: 700px;
+    height: 600px;
+}
