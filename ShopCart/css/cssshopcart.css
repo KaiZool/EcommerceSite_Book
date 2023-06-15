@@ -1,0 +1,238 @@
+﻿                                /* _____________________________
+                    
+                                        CART CSS   
+                   
+                                   ___________________________*/
+
+                /* _________________________
+
+                        STANDARD ELEMENTS 
+                    ________________________*/
+
+body 
+{
+    background: #000 !important;
+}
+
+                /* _________________________
+
+                        STRUCTURAL ELEMENTS 
+                    ________________________*/
+
+#wrapper
+{
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+h3
+{
+    color: #FFFFFF;
+    font-size: 37px;
+}
+
+p
+{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.page-header h2
+{
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+}
+
+.container-fluid
+{
+    border-radius: 0px;
+}
+
+table
+{
+    margin: 3%;
+    color: #FFF;
+}
+
+.btnCheckO
+{
+    color: #000000;
+}
+
+/* _________________________
+
+        CAROUSEL ELEMENTS 
+    ________________________*/
+
+#carousel-example-generic
+{
+    margin: -1% 10% 4%;
+}
+
+.carousel-caption
+{
+    margin: 0% 0% 0%;
+}
+
+#carousel-example-generic img
+{
+    margin: 0% 3%;
+}
+
+.page-header h1
+{
+    color: #fff;
+    text-align: center;
+}
+
+.links
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.pro
+{
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #2B3856 !important;
+    border: 1px solid #fff !important;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 10px #fff;
+    text-align: center;
+}
+
+.pro img
+{
+    margin: 0% 0% 5%;
+}
+
+.pro p
+{
+    text-align: left;
+}
+
+.pro .btn-default
+{
+    margin: 5% 5% 5% 5%;
+}
+
+.separator
+{
+    margin: 50px 0px;
+}
+
+.cartT
+{
+    text-align: center;
+    width: 90%;
+    color: #FFF;
+    border: 6px 6px 6px 6px;
+    border: double;
+    font-size: 18px;
+
+}
+
+.cartT input
+{
+    width: 150px;
+    height: 230px;
+    color: #fff;
+}
+
+.cartT h4
+{
+    padding: 0;
+    margin:0;
+}
+
+.cartT tr td select
+{
+    width: 100px;
+    color: #000000;
+}
+
+/* _________________________
+	Pop Up Elements:
+	[RobinsonProgramming.com]. (2014, Feb 26). How to Make Pop up Text in HTML and CSS [Video]. Retrieved from: https://www.youtube.com/watch?v=N5M_A-HrpU4
+____________________________*/
+.hidedisplay
+{
+	position: relative;
+	z-index: 20;
+	color: #000000;
+	text-decoration: none;
+}
+
+.hidedisplay img
+{
+	height: 45px;
+	width: 45px;
+}
+
+.hidedisplay:hover
+{
+	z-index: 30;
+}
+
+.hidedisplay span.showDisplayonhover
+{
+	display: none;
+}
+
+.hidedisplay:hover span.showDisplayonhover
+{
+	display: block;
+	position: absolute;
+	font-size: 18px;
+	line-height: 25px;
+	top: 5px;
+	left: 20px;
+	width: auto;
+	padding: 10px;
+	border: 1px solid #191980;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+span.showbodyDisplayonhover
+{
+	font-size: 16px;
+	font-weight: normal;
+	color: #C0C0C0;
+	line-height: 10px;
+}
+
+/* _________________________
+
+        FOOTER ELEMENTS 
+    ________________________*/
+
+
+footer
+{
+    background: #101010;
+    position: relative;
+}
+
+footer p, footer h4
+{
+    color: #FFF;
+    margin: 1% 1% 3% 3%
+}
+
+footer p a
+{
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer img
+{
+    width: 40%
+}
